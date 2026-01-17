@@ -1,0 +1,92 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: #f2f2f7;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #1c1c1e;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #d1d1d6;
+  font-size: 16px;
+  outline: none;
+  resize: none;
+}
+
+input:focus, textarea:focus {
+  border-color: #0a84ff;
+}
+
+button {
+  padding: 10px;
+  background-color: #ffad0a;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background-color: rgb(181, 149, 4);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+li {
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li .note-text {
+  max-width: 80%;
+}
+
+li button {
+  background-color: #ff3b30;
+  font-size: 14px;
+  padding: 5px 10px;
+}
+
+li button:hover {
+  background-color: #cc2b20;
+}
+
+em {
+  color: gray;
+  font-size: 12px;
+  display: block;
+  margin-top: 5px;
+}
